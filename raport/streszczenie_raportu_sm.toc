@@ -1,0 +1,19 @@
+\babel@toc {polish}{}
+\contentsline {section}{\numberline {1}Karta projektu}{1}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Cele projektu}{1}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Produkty projektu}{1}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Uproszczony harmonogram}{1}{subsection.1.3}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Tydzień 1}{1}{subsubsection.1.3.1}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Tydzień 2}{2}{subsubsection.1.3.2}% 
+\contentsline {subsubsection}{\numberline {1.3.3}Tydzień 3}{2}{subsubsection.1.3.3}% 
+\contentsline {subsubsection}{\numberline {1.3.4}Tydzień 4}{2}{subsubsection.1.3.4}% 
+\contentsline {subsubsection}{\numberline {1.3.5}Tydzień 5}{2}{subsubsection.1.3.5}% 
+\contentsline {subsection}{\numberline {1.4}Budżet projektu}{3}{subsection.1.4}% 
+\contentsline {subsection}{\numberline {1.5}Uproszczony opis zespołu projektowego}{3}{subsection.1.5}% 
+\contentsline {section}{\numberline {2}Opis merytoryczny}{3}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Stan wiedzy w dziedzinie objętej projektem (chodzi o to jakie rozwiązania są dostępne na rynku w danej dziedzinie) }{3}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Trutina}{4}{subsubsection.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Arduino Irrigator System }{5}{subsubsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.2}Opis działań przeznaczonych do realizacji }{5}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Uzasadnienie innowacyjności podjętych działań }{5}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Spodziewany efekt }{5}{subsection.2.4}% 
