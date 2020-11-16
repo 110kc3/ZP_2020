@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.14)  13 NOV 2020 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.14)  16 NOV 2020 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,78 +430,51 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 
-       [1]
-Overfull \hbox (3.01239pt too wide) in paragraph at lines 122--124
-[]\T1/cmr/m/n/12 Stworzenie sche-matu elek-trycz-nego go-to-wego pro-jektu. Te-
-sto-wa-nie po-praw-no-±ci dzia-
- []
-
-[2]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-09.
+l.91 \newpage
+              [1]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+11.
  (d:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
- [3
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+
+[2] [3
 
 ]
-<img/auto_water1.jpg, id=144, 1204.5pt x 903.375pt>
+<img/auto_water1.jpg, id=136, 1204.5pt x 903.375pt>
 File: img/auto_water1.jpg Graphic file (type jpg)
 <use img/auto_water1.jpg>
-Package pdftex.def Info: img/auto_water1.jpg  used on input line 243.
+Package pdftex.def Info: img/auto_water1.jpg  used on input line 239.
 (pdftex.def)             Requested size: 284.52756pt x 213.3959pt.
-
-
-LaTeX Warning: Citation `Trutina' on page 4 undefined on input line 245.
-
-
-LaTeX Warning: Citation `Trutina' on page 4 undefined on input line 245.
-
-[4 <./img/auto_water1.jpg>]
-<img/arduino_przyklad2.jpg, id=151, 1027.84pt x 697.60625pt>
+ [4 <./img/auto_water1.jpg>]
+<img/arduino_przyklad2.jpg, id=147, 1027.84pt x 697.60625pt>
 File: img/arduino_przyklad2.jpg Graphic file (type jpg)
 <use img/arduino_przyklad2.jpg>
-Package pdftex.def Info: img/arduino_przyklad2.jpg  used on input line 261.
+Package pdftex.def Info: img/arduino_przyklad2.jpg  used on input line 257.
 (pdftex.def)             Requested size: 227.62204pt x 154.48508pt.
+ [5 <./img/arduino_przyklad2.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 691.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 691.
 
-
-LaTeX Warning: Citation `ArduinoIS' on page 5 undefined on input line 263.
-
-
-LaTeX Warning: Citation `ArduinoIS' on page 5 undefined on input line 263.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 689.
-[5 <./img/arduino_przyklad2.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 689.
- (./streszczenie_raportu_sm.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 689.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 689.
-
-
-Package rerunfilecheck Warning: File `streszczenie_raportu_sm.out' has changed.
-
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `streszczenie_raportu_sm.out':
-(rerunfilecheck)             Before: ED76C6C763617B4909203BD78B68E66F;1379
-(rerunfilecheck)             After:  70EFCFA60F18576C94174F301C577C29;1378.
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 689.
+(./streszczenie_raportu_sm.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 691.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 691.
+Package rerunfilecheck Info: File `streszczenie_raportu_sm.out' has not changed
+.
+(rerunfilecheck)             Checksum: 4925C43A36D9938559DD72D3E75EC9B7;1253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 691.
  ) 
 Here is how much of TeX's memory you used:
- 9230 strings out of 493528
- 137370 string characters out of 6161766
- 425826 words of memory out of 5000000
- 13365 multiletter control sequences out of 15000+600000
+ 9234 strings out of 493528
+ 137392 string characters out of 6161766
+ 422826 words of memory out of 5000000
+ 13366 multiletter control sequences out of 15000+600000
  17773 words of font info for 42 fonts, out of 8000000 for 9000
  306 hyphenation exceptions out of 8191
- 47i,8n,51p,783b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,8n,51p,783b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<d:/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/
 texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/texlive/2019/texmf-dist
@@ -512,10 +485,10 @@ fcc1440.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pf
 b><d:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><d:/texl
 ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2019/t
 exmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on streszczenie_raportu_sm.pdf (6 pages, 915605 bytes).
+Output written on streszczenie_raportu_sm.pdf (7 pages, 915068 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

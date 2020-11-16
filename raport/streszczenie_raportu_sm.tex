@@ -88,25 +88,29 @@
 
 \tableofcontents
 
+\newpage
 
 \section{Karta projektu}
 
 
 \subsection{Cele projektu}
 Nasz projekt ma na celu pomóc zabieganym ludziom, którzy nie mają czasu na zajmowanie się
-swoją ukochaną roślinką przez swój częsty brak pobytu w domu. Wystarczy dostęp do internetu,
+swoją roślinką przez swój częsty brak pobytu w domu. Wystarczy dostęp do internetu,
 nic więcej.
 
 Powstała koncepcja opiera się na systemie zdalnego zarządzania rośliną. Chcemy mierzyć parametry
 gleby i otoczenia takie jak wilgotność, nasłonecznienie, a nawet poziom wody w zbiorniku do podlewania. W zależności od odczytanych wartości przez
-płytkę rozwojową UNO połączoną z modułem ESP8266, będzie możliwe sterowanie pompką wody. Ponieważ koncepcja projeku nie jest rozległa, postanowiliśmy utworzyć panel sterowania na stronie
+płytkę rozwojową UNO połączoną z modułem ESP8266, będzie możliwe sterowanie pompką wody i oświetleniem rośliny. Postanowiliśmy utworzyć panel sterowania na stronie
 internetowej.
 
 \subsection{Produkty projektu}
 
-Urządzenie i system do zdalnego zarządzania rośliną.
 
 
+\begin{itemize}
+	\item Zespół urządzeń akwizycyjno-wykonawczych  
+	\item Panel sterowania na stronie internetowej 
+\end{itemize}
 
 \subsection{Uproszczony harmonogram}
 
@@ -115,29 +119,22 @@ Urządzenie i system do zdalnego zarządzania rośliną.
 Pomysł, przegląd podobych rozwiązań dostępnych na rynku.
 Próba dopasowania się do konkurencji z własnym rozwiązaniem.
 
+Przeanalizowanie współpracy płytki rozwojowej UNO, modułu komunikacyjnego ESP8266, czujnika wilgotności gleby, czujnika wilgotności powietrza i czujnika nasłonecznienia oraz rozwiązanie techniczne doświetlania rośliny. 
+
 \subsubsection{Tydzień 2}
-Przeanalizowanie współpracy płytki rozwojowej UNO, modułu komunikacyjnego ESP8266, czujnika wilgotności gleby, czujnika wilgotności powietrza, czujnika nasłonecznienia oraz rozwiązanie techniczne doświetlania rośliny. 
 
 
-Stworzenie schematu elektrycznego gotowego projektu. Testowanie poprawności działania posiadanych czujników w warunkach domowych. Implementacja komunikacji z modułem ESP8266. Dopasowywanie czasów działania. 
-Dokupienie brakujących komponentów gotowego projektu. 
+Stworzenie schematu elektrycznego projektu. Testowanie poprawności działania posiadanych czujników w warunkach domowych. Implementacja komunikacji z modułem ESP8266. Dopasowywanie czasów działania.
+
+Równoczesne tworzenie aplikacji zajmującej się zarządzaniem zapytaniami i realizującej funkcję komunikacji z użytkownikiem opartej o websocket.
+
 \subsubsection{Tydzień 3}
+Realizacja połączeń elektrycznych na płytce stykowej i ostateczne testowanie poprawności działania aplikacji.
 
-
-
-Realizacja połączeń elektrycznych na płytce stykowej i ostateczne testowanie poprawności dzia-
-łania. 
 
 \subsubsection{Tydzień 4}
 
-Przeniesienie projektu na płytkę uniwersalną. Przygotowanie obudowy i realiza-
-cja montażu systemu doświetlania.
-
-
-
-\subsubsection{Tydzień 5}
-
-Prezentacja gotowego projektu.
+Przeniesienie projektu na płytkę uniwersalną. Przygotowanie obudowy i realizacja montażu systemu doświetlania. Prezentacja gotowego projektu. 
 
 \newpage
 \clearpage
@@ -151,17 +148,16 @@ Prezentacja gotowego projektu.
 \begin{table}[!h]
 	\centering
 	\begin{tabular}{l|r}
-		 & Cena \\\hline
+		Komponent projektu & Cena \\\hline
 		
-		Fizyczne komponenty projektu do testów & 200 PLN \\
-	
+		Fizyczne części & 100 PLN \\
+		
 		Wynagrodzenie dla specjalistów & 10000 PLN \\
 		
-		Marketing & 2000 PLN \\
+		Marketing & 500 PLN \\
 		
-		Kawa & 200 PLN 
-		\\ \hline
-		Suma & 12400 PLN
+		\hline
+		Suma & 10600 PLN
 		
 	\end{tabular}
 	
@@ -206,25 +202,26 @@ Same komponenty projektu zostaną sprowadzone z Chin, poniżej przedstawiamy kos
 \subsection{Uproszczony opis zespołu projektowego}
 
 \begin{itemize}
-\item Kamil - mastermind spagetti, jego pasją jest Ctrl+C Ctrl+V
+	
+\item Stefan - Team lead, odpowiedzialny za organizację pracy zespołu
 
-\item Oskar - elektryk z zamiłowania, zrobił plantie w aucie
+\item Janusz - Marketing manager, odpowiedzialny za marketing 
 
-\item Jano - szef marketingu, promował projekt na ulicy pod kebabem
+\item Kamil - Elektryk, odpowiedzialny za hardware
 
-\item Gruby - jest gruby
+\item Oskar - Programista, odpowiedzialny za software
+
+
+
+
 \end{itemize}
 
 
-
+\newpage
 \section{Opis merytoryczny}
 
-\subsection{Stan wiedzy w dziedzinie objętej projektem (chodzi o to jakie rozwiązania są dostępne na rynku w danej dziedzinie)}
+\subsection{Stan wiedzy w dziedzinie objętej projektem - podobne projekty}
 
-
-
-
-\newpage
 
 \subsubsection{Trutina}
 ‘Trutina’ z Gremon Systems przedstawiony na Rysunku nr \ref{fig:Trutina},
@@ -233,7 +230,7 @@ Same komponenty projektu zostaną sprowadzone z Chin, poniżej przedstawiamy kos
 System posiada także aplikację na telefon, dzięki której możemy podglądać graficznie mierzone parametry, a także kontrolować system podlewający. 
 
 
-Różni sie od naszego projektu aplikacją, gdyż my otrzymujemy wszystkie pomiary na stronę internetową i samoistnym wyborem kiedy będzie włączone podlewanie. Jest to także dużo większy projekt od naszego gdyż jest przystosowany do pracy w warunkach terenowych, nasz zaś do domowych.
+Różni sie od naszego projektu aplikacją, gdyż otrzymujemy wszystkie pomiary na stronie internetowej i samoistnym wyborem kiedy będzie włączone podlewanie. Jest to także dużo większy projekt od naszego gdyż jest przystosowany do pracy w warunkach terenowych, nasz zaś do domowych.
 
 
 
@@ -269,24 +266,29 @@ Projekt różni się od naszego sposobem wyświetlania danych - różnica wyświ
 \subsection{Opis działań przeznaczonych do realizacji }
 
 \begin{itemize}
-	\item 
+	\item Zebranie drużyny projektowej
 	
-	\item 
+	\item Przegląd dostępnych rozwiązań
 	
-
+	\item Dopasowanie do rynku
+	\item Realizacja projektu
+	\item Marketing 
 \end{itemize}
 
 
 
 \subsection{Uzasadnienie innowacyjności podjętych działań }
 
-%%Nie ma na rynku takiej stacji służącej do zarządzania 
+Nie ma na rynku tak taniego i tak dobrego rozwiazania.
+
+Dodatkowo my jako młody i dynamiczny zespół wprowadzimy najnowsze rozwiązania dostępne na rynku przez co projekt będzie zgodny z najowszymi trendami programistycznymi.
 
 \subsection{Spodziewany efekt }
 
 
-Masowy sukces, basen z hajsem.
-
+Przyjecie produktu przez rynek, zadowolenie konsumenta.
+ 
+Wykup projektu przez większą firmę.
 
 
 
@@ -631,17 +633,18 @@ Masowy sukces, basen z hajsem.
 %Domena i działanie projektu w chmurze bez potrzeby włączania serwera na laptopie. Do tego było by potrzebne przeniesienie naszej bazy danych na bazę danych w chmurze (np. Azure), a także implementacja ESP8266 jako serwera.\\
 %
 %
-%\newpage
-%\begin{thebibliography}{9}
-%
-%
-%
-%\bibitem{Trutina} Trutina z Gremon Systems
-%gremonsystems.com/blog-en/things-you-didnt-know-about-automatic-watering-systems/
-%
-%\bibitem{ArduinoIS} Arduino Irrigator System
-%http://www.circuitstoday.com/arduino-irrigation-plant-watering-using-soil-moisture-sensor
-%
+
+\newpage
+\begin{thebibliography}{9}
+
+
+
+\bibitem{Trutina} Trutina z Gremon Systems
+gremonsystems.com/blog-en/things-you-didnt-know-about-automatic-watering-systems/
+
+\bibitem{ArduinoIS} Arduino Irrigator System
+http://www.circuitstoday.com/arduino-irrigation-plant-watering-using-soil-moisture-sensor
+
 %
 %
 %\bibitem{latexcompanion} 
@@ -678,11 +681,11 @@ Masowy sukces, basen z hajsem.
 %\bibitem{bateria} Bateria alkaliczna 9V 
 %\emph{VARTA},
 %elfadistrelec.pl/pl/alkaliczne-bateria-alkaliczna-9v-6lr61-varta-industrial-9v/p/16901614
-%
-%
-%
-%
-%\end{thebibliography}
+
+
+
+
+\end{thebibliography}
 
 
 \end{document}
