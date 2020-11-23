@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.14)  16 NOV 2020 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.14)  22 NOV 2020 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**streszczenie_raportu_sm.tex
-(./streszczenie_raportu_sm.tex
+**ZP_2020_Choinski_Stabla.tex
+(./ZP_2020_Choinski_Stabla.tex
 LaTeX2e <2019-10-01> patch level 1
 (d:/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
@@ -302,8 +302,8 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layoutvoffset=\dimen133
 \Gm@dimlist=\toks20
 )
-(./streszczenie_raportu_sm.aux)
-\openout1 = `streszczenie_raportu_sm.aux'.
+(./ZP_2020_Choinski_Stabla.aux)
+\openout1 = `ZP_2020_Choinski_Stabla.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
 LaTeX Font Info:    ... okay on input line 85.
@@ -365,9 +365,9 @@ LaTeX Info: Redefining \ref on input line 85.
 LaTeX Info: Redefining \pageref on input line 85.
 LaTeX Info: Redefining \nameref on input line 85.
 
-(./streszczenie_raportu_sm.out) (./streszczenie_raportu_sm.out)
+(./ZP_2020_Choinski_Stabla.out) (./ZP_2020_Choinski_Stabla.out)
 \@outlinefile=\write3
-\openout3 = `streszczenie_raportu_sm.out'.
+\openout3 = `ZP_2020_Choinski_Stabla.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -422,9 +422,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {d:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./streszczenie_raportu_sm.toc)
+(./ZP_2020_Choinski_Stabla.toc)
 \tf@toc=\write4
-\openout4 = `streszczenie_raportu_sm.toc'.
+\openout4 = `ZP_2020_Choinski_Stabla.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -440,37 +440,35 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
 
-[2] [3
-
-]
-<img/auto_water1.jpg, id=136, 1204.5pt x 903.375pt>
+[2] [3]
+<img/auto_water1.jpg, id=141, 1204.5pt x 903.375pt>
 File: img/auto_water1.jpg Graphic file (type jpg)
 <use img/auto_water1.jpg>
-Package pdftex.def Info: img/auto_water1.jpg  used on input line 239.
+Package pdftex.def Info: img/auto_water1.jpg  used on input line 223.
 (pdftex.def)             Requested size: 284.52756pt x 213.3959pt.
  [4 <./img/auto_water1.jpg>]
-<img/arduino_przyklad2.jpg, id=147, 1027.84pt x 697.60625pt>
+<img/arduino_przyklad2.jpg, id=152, 1027.84pt x 697.60625pt>
 File: img/arduino_przyklad2.jpg Graphic file (type jpg)
 <use img/arduino_przyklad2.jpg>
-Package pdftex.def Info: img/arduino_przyklad2.jpg  used on input line 257.
+Package pdftex.def Info: img/arduino_przyklad2.jpg  used on input line 241.
 (pdftex.def)             Requested size: 227.62204pt x 154.48508pt.
  [5 <./img/arduino_przyklad2.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 691.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 691.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
 
-(./streszczenie_raportu_sm.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 691.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 691.
-Package rerunfilecheck Info: File `streszczenie_raportu_sm.out' has not changed
+(./ZP_2020_Choinski_Stabla.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
+Package rerunfilecheck Info: File `ZP_2020_Choinski_Stabla.out' has not changed
 .
-(rerunfilecheck)             Checksum: 4925C43A36D9938559DD72D3E75EC9B7;1253.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 691.
+(rerunfilecheck)             Checksum: B6C3F076CE4BCBF735A54D3049D74B6D;1322.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
  ) 
 Here is how much of TeX's memory you used:
  9234 strings out of 493528
- 137392 string characters out of 6161766
- 422826 words of memory out of 5000000
+ 137404 string characters out of 6161766
+ 423826 words of memory out of 5000000
  13366 multiletter control sequences out of 15000+600000
  17773 words of font info for 42 fonts, out of 8000000 for 9000
  306 hyphenation exceptions out of 8191
@@ -485,10 +483,10 @@ fcc1440.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pf
 b><d:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><d:/texl
 ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2019/t
 exmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on streszczenie_raportu_sm.pdf (7 pages, 915068 bytes).
+Output written on ZP_2020_Choinski_Stabla.pdf (7 pages, 915993 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
+ 210 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
